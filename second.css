@@ -1,0 +1,78 @@
+.container {
+    width: 100%; /* instead of 1200px */
+}
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f7e9dc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.letter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter {
+    background-color: #fff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border: 2px solid #ffb6c1;
+    text-align: center;
+}
+
+.letter-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #c94b6a;
+}
+
+.letter-content {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #741caf;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5a1280;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.hidden {
+    display: none;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #c94b6a;
+    font-weight: bold;
+}
